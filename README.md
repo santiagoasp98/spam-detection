@@ -7,7 +7,7 @@ This repository contains the implementation and analysis of a machine learning-b
 
 ## **Project Overview**
 
-The main objective of this project is to build and evaluate machine learning models to classify text messages into two categories: **spam** and **ham**. The project explores multiple techniques, including **TF-IDF**, **Bag of Words (BOW)**, and **Multinomial Naive Bayes (MNB)**, while focusing on key evaluation metrics like precision, recall, and F1-score.
+The main objective of this project is to build and evaluate machine learning models to classify text messages into two categories: **spam** and **ham**. The project explores multiple techniques, including **TF-IDF**, **Bag of Words (BOW)**, and **Multinomial Naive Bayes (MNB)**, while focusing on key evaluation metrics like precision, recall, and accuracy.
 
 ### **Key Features**
 - Preprocessing of raw text messages.
@@ -20,7 +20,7 @@ The main objective of this project is to build and evaluate machine learning mod
 
 ## **Data**
 
-The dataset used for this project contains labeled text messages categorized as either **spam** or **ham**. The dataset includes a balanced mix of both categories to ensure robust model evaluation.
+The dataset used for this project contains labeled text messages categorized as either **spam** or **ham**. The dataset includes a imbalanced mix of both categories.
 
 ---
 
@@ -41,7 +41,6 @@ The dataset used for this project contains labeled text messages categorized as 
 ---
 
 ## **Performance Comparison**
-
 
 | Model                     | Precision (Spam) | Recall (Spam) | Accuracy |
 |---------------------------|------------------|---------------|-----------------|
@@ -73,8 +72,6 @@ The project uses **cross-validation** during hyperparameter tuning for logistic 
 
 ---
 
-## **Usage**
-
-### **Requirements**
+## **Requirements**
 - Python 3.8+
 - Libraries: `scikit-learn`, `numpy`, `pandas`, `matplotlib`
