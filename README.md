@@ -42,8 +42,9 @@ The dataset used for this project contains labeled text messages categorized as 
 
 ## **Performance Comparison**
 
+
 | Model                     | Precision (Spam) | Recall (Spam) | Accuracy |
-|---------------------------|------------------|---------------|-----------------|----------|
+|---------------------------|------------------|---------------|-----------------|
 | Logistic Regression (TF-IDF) | 94%              | 91%           | 98%      |
 | Logistic Regression (BOW)    | 98%              | 90%           | 98%      |
 | Multinomial Naive Bayes       | 91%              | 95%           | 98%      |
